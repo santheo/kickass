@@ -1,0 +1,145 @@
+* {
+    box-sizing: border-box;
+}
+
+/* GENERAL */
+
+body {
+    font-family: Helvetica;
+    padding-top: 50px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-left: 14px;
+}
+
+header {
+    background: pink;
+    width: 100%;
+    height: 50px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding-top: 12px;
+}
+
+.container {
+    width: 892px;
+    margin: 0 auto;
+}
+
+.content {
+    text-align: center;
+}
+
+.headline {
+    background: url(images/confetti.jpg) no-repeat 0 0;
+    padding-top: 30px;
+    height: 544px;
+}
+
+.logo {
+    float: left;
+}
+
+/* NAV */
+
+.nav {
+    float: right;
+}
+
+.nav li {
+    float: right;
+}
+
+.hilite {
+    background: yellow;
+}
+
+.headline {
+    /*float: left;*/
+}
+
+h2 {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    padding: 1.2em 0;
+}
+
+/* QUOTES */
+
+.quote {
+    text-align: left;
+    width: 47%;
+    float: left;
+}
+
+.quote.first {
+    margin-right: 6%;
+}
+
+.quote q {
+    font-family: Georgia;
+    font-size: 24px;
+    font-style: italic;
+    line-height: 1.4;
+    display: block;
+    position: relative;
+}
+
+.quote q:before {
+    content:"“";
+    position: absolute;
+    top: -6px;
+    right: 103%;
+    color: #888;
+    font-size: 48px;
+}
+
+cite {
+    display: block;
+    color: #aaa;
+    font-size: 18px;
+    font-family: Helvetica, sans-serif;
+    padding-top: 1em;
+    line-height: 1.4;
+    position: relative;
+    padding-left: 62px;
+}
+
+cite:before {
+    content: "";
+    height: 48px;
+    width: 48px;
+    display: block;
+    position: absolute;
+    top: 18px;
+    left: 0;
+    border-radius: 50%;
+    border: 1px solid #777;
+}
+
+.dexter cite:before {
+    background-image: url(images/dexter.jpg);
+}
+
+.baretta cite:before {
+    background-image: url(images/baretta.jpg);
+}
+
+cite strong {
+    font-weight: bold;
+    font-size: 20px;
+    color: black;
+    display: block;
+}
+
+
+
+
+
